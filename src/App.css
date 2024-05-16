@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Potta+One&display=swap');
+
+.app-div {
+  min-height: 100vh;
+  /* background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%); */
+  /* background-color: #8EC5FC;
+background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%); */
+  background-color: #f5f5dc;
+
+
+}
+
+.app-title{
+  font-family: 'Potta One', cursive;
+  text-align: center;
+  padding-top: 20px;
+  color: rgb(212, 73, 73);
+  text-shadow: 3px 3px 5px rgb(61, 26, 26);
+}
+
+.search-form{
+  min-height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.search-bar{
+  width: 50%;
+  border: none;
+  padding: 10px;
+  outline-color: blueviolet;
+}
+
+.search-button{
+  background: lightcoral;
+  border: none;
+  outline: none;
+  padding: 10px 20px;
+  color: white;
+  margin-left: 10px;
+}
+
+.search-button:hover{
+  background-color: rgb(209, 82, 82);
+  transition-duration: 1s;
+}
+
+.recipes{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  min-height: 60vh;
+}
+
+.footer a{
+  text-decoration: none;
+}
+
+
+.rsp {
+  color: rgb(255, 255, 255) !important;
+box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  background: linear-gradient(45deg, #FFFB7D 0%, #85FFBD 100%);
+  background-color: #FFE53B;
+background-image: linear-gradient(147deg, #FF2525 0%,  #FFE53B 74%);
+
+  transition: background 1s ease;
+}
+
+.rsp:hover {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  width: 550px !important ;
+  background: linear-gradient(45deg, #ff8585 0%, #f03939 100%) !important;
+  transition: .3s ease;
+}
