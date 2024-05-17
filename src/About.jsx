@@ -1,6 +1,5 @@
 import React from 'react'
-import ns5 from "./images/nazz1.png"
-import ns4 from "./images/image10.png"
+
 function About() {
   return (
     <div>
