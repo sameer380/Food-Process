@@ -45,13 +45,13 @@ function About() {
       <div className="grid grid-cols-2 gap-4 md:grid-cols-1 lg:grid-cols-2">
         <img
           alt=""
-                              src={ ns5}
+                              src="https://thumbs.dreamstime.com/b/three-professional-happy-diverse-international-team-young-business-people-workers-standing-corporate-office-multiethnic-smiling-288530535.jpg"
           className="h-40 w-full object-cover sm:h-56 md:h-full"
         />
 
         <img
           alt=""
-                              src={ ns4}
+                              src="https://thumbs.dreamstime.com/b/modern-designers-office-employees-informal-female-group-128649682.jpg"
           className="h-40 w-full object-cover sm:h-56 md:h-full"
         />
       </div>
