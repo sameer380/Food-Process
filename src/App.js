@@ -7,7 +7,6 @@ import ResponsiveAppBar from './ResponsiveAppBar';
 import Home from "./Home";
 import Favorites from "./Favorites";
 import About from './About';
-import  Gall  from './Gall';
 
 function App() {
   const [currentPath, setCurrentPath] = useState(window.location.pathname);
