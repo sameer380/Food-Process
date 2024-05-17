@@ -1,4 +1,3 @@
-import amg from "./images/image.png"
 import * as React from 'react';
 import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
@@ -165,7 +164,7 @@ function ResponsiveAppBar() {
           <Box sx={{ flexGrow: 0 }}>
             <Tooltip title="Open settings">
               <IconButton onClick={handleOpenUserMenu} sx={{ p: 2 }}>
-                <Avatar alt="Remy Sharp" src={amg}
+                <Avatar alt="Remy Sharp" src=""
              sx={{ 
             width: 76, 
             height: 76, 
