@@ -32,8 +32,6 @@ function App() {
         return <Favorites />;
         case '/about':
         return <About />;
-           case '/naziya':
-        return <Gall />;
       default:
         return <Home />; 
     }
